@@ -6,7 +6,7 @@ function operatingSystem(param) {
 }
 
 operatingSystem({
-  Memory: os.totalmem(),
-  Platform: os.platform(),
-  User: os.userInfo(),
+  memory: os.totalmem(),
+  platform: os.platform(),
+  user: os.userInfo(),
 });
